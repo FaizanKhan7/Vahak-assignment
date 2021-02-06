@@ -6,7 +6,7 @@ import styles from "./form.module.css"
 function Form() {
     return (
         <div className={styles.formStyles}>
-           <Heading title={"Place your Loan Bid"}/>
+           <Heading title={"Place your Load Bid"}/>
            <Input lableName={"Enter your mobile number*"}/>
            <Input lableName={"Enter your name*"}/>
            <Input lableName={"Enter Remarks (optional)*"}/>

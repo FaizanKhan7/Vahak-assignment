@@ -1,0 +1,128 @@
+.card {
+  width: 90%;
+  box-shadow: 0 0 30px #90909066;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+.cardHeading {
+  margin: 0 auto;
+  padding: 18px 0;
+  background-color: #202942;
+  color: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  text-align: center;
+}
+
+.cardHeading h3 {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.cardHeading p {
+  font-size: 13px;
+  font-weight: 600;
+  color: #8492a6;
+}
+
+.specifications {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.specification img {
+  width: 15px;
+}
+.specification2 img {
+  width: 20px;
+}
+.specification3 img {
+  width: 18px;
+}
+.specification {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px auto 10px;
+}
+
+.specification h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.specification2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.specification2 h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.specification3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.specification3 h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 22px;
+}
+
+.moreContent {
+  width: 85%;
+  margin: 10px auto;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.moreDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2355fc0f;
+}
+.moreDetails p {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 7px;
+  color: #194dff;
+  opacity: 90%;
+}
+.moreDetails img {
+  cursor: pointer;
+}
+
+.profile {
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px 0 25px;
+  display: flex;
+}
+.profile img {
+  width: 36px;
+  height: 36px;
+}
+
+.nameLocation {
+  margin-left: 12px;
+}
+
+.nameLocation h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nameLocation p {
+  font-size: 13px;
+  color: #8492a6;
+}

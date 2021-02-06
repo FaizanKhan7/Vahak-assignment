@@ -1,0 +1,16 @@
+.heading {
+  margin: 15px auto;
+}
+.heading h2 {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.headingBorder {
+  margin: 0 auto;
+  width: 70px;
+  height: 4px;
+  background-color: #3054d6;
+}

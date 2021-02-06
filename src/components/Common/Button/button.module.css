@@ -1,0 +1,39 @@
+.ghostButton button {
+  color: #0a2239;
+  opacity: 60%;
+  background-color: #f6f9fb80;
+  border: 2px solid #e7ebee;
+  border-radius: 18px;
+  margin: 10px;
+  padding: 9px 16px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.ghostButton button:hover,
+.ghostButton button:focus {
+  color: #3054d6;
+  background-color: #3054d60f;
+  border: 2px solid #3054d6;
+}
+
+.regularBtn button {
+  display: block;
+  width: 90%;
+  margin: 10px auto 30px;
+  padding: 15px 0;
+  background-color: #d6d8dd;
+  border: none;
+  border-radius: 6px;
+  color: #2355fc;
+  opacity: 40%;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.regularBtn button:hover,
+.regularBtn button:focus {
+  background-color: #3054d6;
+  color: #fff;
+  box-shadow: 0 4px 10px #cdcdcd66;
+  opacity: 10;
+}

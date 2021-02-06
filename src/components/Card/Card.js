@@ -33,8 +33,8 @@ function Card() {
                         <p className={styles.moreContent}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     ) : ('')}
                 <div className={styles.moreDetails}>
-                    <p onClick={() => setMoreLess(!moreLess)}>{moreLess ? "Less Details" : "More Details"}</p>
-                    <img src={More} style={moreLess ? {transform: 'rotate(0deg)', transition: 'transform 0.5s ease-in-out'} : {transform: 'rotate(180deg)', transition: 'transform 0.5s ease-in-out'}} alt="favicon-bottom"/>
+                    <p onClick={() => setMoreLess(!moreLess)}>{moreLess ? "Hide Details" : "More Details"}</p>
+                    <img src={More} style={moreLess ? {transform: 'rotate(180deg)', transition: 'transform 0.5s ease-in-out'} : {transform: 'rotate(0deg)', transition: 'transform 0.35s ease-in-out'}} alt="favicon-bottom"/>
                 </div>
                 <div className={styles.profile}>
                     <img src={Profile} alt="Profile-photo"/>

@@ -1,9 +1,10 @@
-import './styles/Home.css';
+import Header from './components/Header/Header';
+import './styles/home.module.css';
 
 function Home() {
   return (
     <div className="Home">
-      <h1>Vahak assignment</h1>
+      <Header/>
     </div>
   );
 }

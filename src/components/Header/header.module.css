@@ -1,0 +1,26 @@
+.headerStyles {
+  width: 100%;
+  box-shadow: 0 3px 6px #00000029;
+}
+.headerItems {
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.headerItems img:nth-child(1) {
+  width: 40px;
+  height: 40px;
+}
+.headerItems img:nth-child(2) {
+  width: 90px;
+  height: 55px;
+}
+.headerItems img:nth-child(3) {
+  width: 40px;
+  height: 40px;
+}

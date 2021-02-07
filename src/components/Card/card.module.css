@@ -90,13 +90,14 @@
   align-items: center;
   background-color: #2355fc0f;
 }
-.moreDetails p {
+.moreDetails button {
+  border: none;
   cursor: pointer;
   font-size: 12px;
   font-weight: 700;
   padding: 7px;
-  color: #194dff;
-  opacity: 90%;
+  background-color: transparent;
+  color: #194fffd7;
 }
 .moreDetails img {
   cursor: pointer;

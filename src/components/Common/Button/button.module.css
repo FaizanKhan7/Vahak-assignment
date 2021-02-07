@@ -21,11 +21,10 @@
   width: 90%;
   margin: 10px auto 30px;
   padding: 15px 0;
-  background-color: #d6d8dd;
+  background-color: #edf0f7;
   border: none;
   border-radius: 6px;
-  color: #2355fc;
-  opacity: 40%;
+  color: #2356fc83;
   font-size: 16px;
   font-weight: 700;
 }

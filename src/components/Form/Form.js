@@ -21,7 +21,7 @@ function Form() {
             <Input lableName={"Enter your name*"}/>
             <Input lableName={"Enter Remarks (optional)*"}/>
             </div>
-           <RegularBtn/>
+           <RegularBtn bidBtn={"Bid Now"}/>
            </>
     )
 }

@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from "./button.module.css"
-function RegularBtn() {
+
+function RegularBtn({bidBtn}) {
     return (
         <div className={styles.regularBtn}>
-            <button>Bid Now</button>
+            <button>{bidBtn}</button>
         </div>
     )
 }

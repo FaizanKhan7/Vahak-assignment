@@ -1,14 +1,20 @@
+$cardShadow: #90909066;
+$default: #fff;
+$backgroundHeader: #202942;
+$textColor: #8492a6;
+$secondaryTextClr: #194fffd7;
+$backgroundColor: #2355fc0f;
 .card {
   width: 90%;
-  box-shadow: 0 0 30px #90909066;
+  box-shadow: 0 0 30px $cardShadow;
   margin: 0 auto;
   border-radius: 6px;
 }
 .cardHeading {
   margin: 0 auto;
   padding: 20px 0;
-  background-color: #202942;
-  color: #fff;
+  background-color: $backgroundHeader;
+  color: $default;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   text-align: center;
@@ -22,7 +28,7 @@
 .cardHeading p {
   font-size: 13px;
   font-weight: 600;
-  color: #8492a6;
+  color: $textColor;
 }
 
 .specifications {
@@ -88,7 +94,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2355fc0f;
+  background-color: $backgroundColor;
 }
 .moreDetails button {
   border: none;
@@ -97,7 +103,7 @@
   font-weight: 700;
   padding: 7px;
   background-color: transparent;
-  color: #194fffd7;
+  color: $secondaryTextClr;
 }
 .moreDetails img {
   cursor: pointer;
@@ -110,6 +116,7 @@
   display: flex;
 }
 .profile img {
+  cursor: pointer;
   width: 36px;
   height: 36px;
 }
@@ -119,11 +126,12 @@
 }
 
 .nameLocation h3 {
+  cursor: pointer;
   font-size: 15px;
   font-weight: bold;
 }
 
 .nameLocation p {
   font-size: 13px;
-  color: #8492a6;
+  color: $textColor;
 }

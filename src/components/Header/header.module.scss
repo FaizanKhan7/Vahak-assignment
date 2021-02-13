@@ -1,3 +1,11 @@
+$headerShadow: #00000029;
+@mixin flexCenter() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
 .headerStyles {
   position: relative;
   top: 0;
@@ -6,27 +14,27 @@
   width: 100%;
   height: 75px;
   margin-bottom: 10px;
-  box-shadow: 0 3px 6px #00000029;
+  box-shadow: 0 3px 6px $headerShadow;
 }
 .headerItems {
+  @include flexCenter();
   margin: 0 auto;
   padding: 10px 0;
   width: 90%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
 }
 
 .headerItems img:nth-child(1) {
+  cursor: pointer;
   width: 40px;
   height: 40px;
 }
 .headerItems img:nth-child(2) {
+  cursor: pointer;
   width: 90px;
   height: 55px;
 }
 .headerItems img:nth-child(3) {
+  cursor: pointer;
   width: 40px;
   height: 40px;
 }

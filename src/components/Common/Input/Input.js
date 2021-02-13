@@ -1,14 +1,21 @@
-import React from 'react'
-import styles from "./input.module.css"
-function Input({lableName, onchange}) {
-    return (
-        <div>
-             <div className={styles.inputStyles}>
-                <input type="text" placeholder=" " className={styles.formInput} onchange={onchange}/>
-                <label className={styles.formLabel}>{lableName}</label>
-            </div>
-        </div>
-    )
+import React from "react";
+import styles from "./input.module.scss";
+function Input({ type, name, lableName, value, onChange }) {
+  return (
+    <div>
+      <div className={styles.inputStyles}>
+        <input
+          type={type}
+          name={name}
+          placeholder=" "
+          className={styles.formInput}
+          onChange={onChange}
+          value={value}
+        />
+        <label className={styles.formLabel}>{lableName}</label>
+      </div>
+    </div>
+  );
 }
 
-export default Input
+export default Input;

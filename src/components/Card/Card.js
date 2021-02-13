@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from "./card.module.css"
+import styles from "./card.module.scss"
 import Cube from "../../assets/Cube.svg"
 import Transport from "../../assets/Transport.svg"
 import Payment from "../../assets/payment.svg"

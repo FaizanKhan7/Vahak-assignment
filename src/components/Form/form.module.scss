@@ -1,0 +1,38 @@
+$primaryBorder: #0a22391f;
+$borderBottom: #e7ebee;
+$bidColor: #0d2d11;
+@mixin flexCenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.formStyles {
+  width: 90%;
+  margin: 30px auto 20px;
+  border: 2px solid $primaryBorder;
+  border-radius: 5px;
+}
+.bid {
+  @include flexCenter();
+  height: 90px;
+  margin: 0 auto;
+}
+
+.bid label {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.bid p[contenteditable] {
+  color: $bidColor;
+  font-size: 50px;
+  font-weight: bolder;
+  border: none;
+}
+
+.formBtns {
+  @include flexCenter();
+  padding-bottom: 20px;
+  border-bottom: 1px solid $borderBottom;
+}

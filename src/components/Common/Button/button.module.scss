@@ -1,0 +1,56 @@
+$default: #fff;
+$primaryBackground: #f6f9fb80;
+$secondaryBackground: #edf0f7;
+$FocusBackground: #3054d60f;
+$textColor: #0a2239ab;
+$textOnFocus: #3054d6;
+$btnTextClr: #2356fc83;
+$btnShadow: #cdcdcd66;
+$primaryBorder: #e7ebee;
+$focusBorder: #3054d6;
+
+.ghostButton button {
+  cursor: pointer;
+  color: $textColor;
+  background-color: $primaryBackground;
+  border: 2px solid $primaryBorder;
+  border-radius: 18px;
+  margin: 10px;
+  padding: 9px 16px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.ghostButton button:hover,
+.ghostButton button:focus {
+  color: $textOnFocus;
+  background-color: $FocusBackground;
+  border: 2px solid $focusBorder;
+}
+
+.regularBtn button:disabled {
+  cursor: not-allowed;
+  display: block;
+  width: 90%;
+  margin: 10px auto 30px;
+  padding: 15px 0;
+  background-color: $secondaryBackground;
+  border: none;
+  border-radius: 6px;
+  color: $btnTextClr;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.regularBtn button:enabled {
+  cursor: pointer;
+  display: block;
+  width: 90%;
+  margin: 10px auto 30px;
+  padding: 15px 0;
+  background-color: $focusBorder;
+  color: $default;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px $btnShadow;
+  opacity: 10;
+}

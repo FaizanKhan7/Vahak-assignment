@@ -1,3 +1,8 @@
+$primaryBorder: #e7ebeeb3;
+$focusBorder: #3054d6;
+$textColor: rgb(150, 150, 150);
+$primaryBackground: #fff;
+
 .inputStyles {
   position: relative;
   width: 90%;
@@ -8,24 +13,24 @@
   width: 100%;
   height: 50px;
   font-size: 15px;
-  border: 2px solid #e7ebeeb3;
+  border: 2px solid $primaryBorder;
   border-radius: 4px;
   padding: 8px;
 }
 .formInput:hover,
 .formInput:focus {
-  border: 2px solid #3054d6;
+  border: 2px solid $focusBorder;
 }
 
 .formLabel {
   position: absolute;
   left: 10px;
   top: 14px;
-  color: rgb(150, 150, 150);
+  color: $textColor;
   font-weight: 600;
   cursor: text;
   transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
-  background-color: #fff;
+  background-color: $primaryBackground;
 }
 
 .formInput:focus ~ .formLabel,

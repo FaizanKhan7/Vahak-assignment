@@ -2,7 +2,7 @@ import Card from './components/Card/Card';
 import Heading from './components/Common/Heading/Heading';
 import Form from './components/Form/Form';
 import Header from './components/Header/Header';
-import './styles/home.module.css';
+import './styles/home.module.scss';
 
 function Home() {
   return (

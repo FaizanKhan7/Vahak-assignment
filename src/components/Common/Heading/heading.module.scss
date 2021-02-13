@@ -1,3 +1,4 @@
+$mainBorder: #3054d6;
 .heading {
   margin: 15px auto;
 }
@@ -12,5 +13,5 @@
   margin: 0 auto;
   width: 70px;
   height: 4px;
-  background-color: #3054d6;
+  background-color: $mainBorder;
 }
